@@ -1,17 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include <unistd.h>
-#include <fcntl.h>
-#include <string.h>
-#include <sys/types.h>
-#include <sys/stat.h>
 
-int main() {
-    int fd = open("/dev/stderr", O_WRONLY);
-    if (fd == -1)
-        return 1;
-
-    const char* message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    write(fd, message, strlen(message));
-
-    close(fd);
-    return 1;
+/**
+ * main - Entry point
+ * Return: Always 1 (Success)
+ */
+int main(void)
+{
+	write(STDOUT_FILENO, "and that piece of art is useful \
+	\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
