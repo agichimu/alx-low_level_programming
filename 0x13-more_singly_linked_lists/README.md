@@ -1,0 +1,1 @@
+# this project includes many singly linked list tasks, such as: # printlist, list length, a dd node, add node at the end, free list, free, pop, get node at index, sum list, insert, insert, delete at index, reverse list, print ==> safe version, free ==> safe version, discover the loop, 
