@@ -1,17 +1,21 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/*function prototypes*/
+
 #include <stdlib.h>
 
-/* Structure definition for singly linked list */
+/**
+ * struct listint_s - singly linked list
+ * @n: int
+ * @next: points to the next node
+ */
 
 typedef struct listint_s
 {
-    int n;
-    struct listint_s *next;
+	int n;
+	struct listint_s *next;
 } listint_t;
-
-/* Function prototypes */
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
@@ -31,4 +35,3 @@ listint_t *find_listint_loop(listint_t *head);
 int _putchar(char c);
 
 #endif
-
