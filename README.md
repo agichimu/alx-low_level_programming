@@ -1,6 +1,1 @@
-# Low-Level Programming
-
-1.0x00. C - Hello, World
-2.0x01. C - Variables, if, else, while
-3.0x02. C - Functions, nested loops
-4.0x03. C - Debugging
+# Low-Level Programming ![c   c++](https://github.com/agichimu/alx-low_level_programming/assets/97959452/dbaf355f-2b35-4ff4-879b-a49d83e5befe)
